@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Survey</title>
+    <link rel="stylesheet" href="Survey.css" />
+  </head>
+
+<main>
+<body>
+  <h1 id="title">Tell Us About Yourself</h1>
+  <hr>
+  <p id="description"> Please provide more information before you can proceed with the application </p>
+<article>
+
+  <form id="survey-form" method="post" action='https://google.ca'>
+<fieldset>
+
+  <label for="name" id="name-label"> How should we call you?
+  <input type="text" id="name" placeholder="ex: John Smith" required> </label>
+<br>
+  <label for="email" id="email-label"> Your email:
+  <input type="email" id="email" placeholder="ex: email@gmail.com" required> </label>
+<br>
+
+ <label for="number" id="number-label"> How many years have you worked in your prevous role?
+  <input type="number" id="number" min="0" max="100" placeholder="2" required> </label> 
+
+<section>
+<label for="dropdown">How did you hear about us?
+<select id="dropdown">
+  <option value="">(select one)</option>
+  <option value="1">LinkedIn
+  </option>
+  <option value="2">Indeed</option>
+  <option value="3">Referral
+  </option>
+  <option value="4" for="other">Other
+  </option>
+  </select></label>
+  </section> 
+
+
+<label> Do you have more than 5 years of relevant experience?</label>
+<br>
+
+<label for="experience">
+  <input type="radio" id="experience" name="yes-no" required>Yes
+  <input type="radio" id="experience" name="yes-no" required>No
+  </label>
+</article>
+<article>
+<section>
+<label for="comments">Provide any additional comments:
+<textarea id="comments" name="comments" rows="1" placeholder="I am looking for full-time positions only..."></textarea>
+</label>
+</section>
+<section>
+  <br>
+<label for="active-casual">Please select what you are looking for (optional):
+  <br>
+  <input type="checkbox" id="casual" name="active-casual" >I'm actively applying
+  <input type="checkbox" id="active" name="active-casual" >I'm casually browsing
+  </label>
+</section>
+
+</article>
+<br>
+</fieldset>
+ <input type="submit" value="Submit" />
+</form>
+</body>
+<footer></footer>
+</main>
+</html>

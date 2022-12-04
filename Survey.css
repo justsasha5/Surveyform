@@ -1,0 +1,21 @@
+body{
+    box-shadow: 10cm;
+    padding: 1cm 0.5cm;
+    background: blueviolet;
+    background-size: auto;
+}
+
+main{
+    background-color: whitesmoke;
+    box-shadow: 0cm 1cm 2em rgb(12,25,127);
+    border-style:double;
+    padding:0.5cm 0.5cm;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+ 
+  
+}
+
+input[type="submit"]{
+    box-shadow:-0.5rem 0.5rem 3em blueviolet;
+    font-family: inherit;
+}   
